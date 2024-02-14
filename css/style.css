@@ -142,7 +142,7 @@
 .preim li.item2:before {
     content: '';
     display: block;
-    background: url(../img/nigiri/preim2.png) no-repeat center center;
+    background: url(../img/nigiri/preim1.png) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;
