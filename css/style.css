@@ -101,7 +101,9 @@
     font-size: 38px;
     font-family:'OfficinaSansBlackC';
 }
-/*block2*//* endzeit_____ */
+
+/*------------------------------------------------------BLOCK 2------------------------------------------*/
+/*block2*//* nigiri_____ */
 .block2 {
     padding: 30px 0 0;
 }
@@ -113,8 +115,11 @@
     width: 20%;
     font-family:'OfficinaSansBoldC';
     vertical-align: top;
-	margin: 0 10px 40px;
+	margin: 0 10px 0px;
     /*margin-bottom: 40px;*/
+}
+.preim li:first-child {
+    margin-left: 0; /* Убирает левый отступ для первого элемента */
 }
 /*.preim li:before {
     content: '';
@@ -137,12 +142,12 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 .preim li.item2:before {
     content: '';
     display: block;
-    background: url(../img/nigiri/preim1.png) no-repeat center center;
+    background: url(../img/nigiri/preim2.png) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;
@@ -178,7 +183,7 @@
 .preim li.item5:before {
     content: '';
     display: block;
-    background: url(../img/nigiri/preim5.png) no-repeat center center;
+    background: url(../img/avocado-nigiri.jpg) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;
@@ -199,6 +204,409 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.fila:before {
+    content: '';
+    display: block;
+    background: url(../img/fila.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.fila_unagi:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_unagi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.fila_ebi:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_ebi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.fila_mango:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_mango.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.rot_dra:before {
+    content: '';
+    display: block;
+    background: url(../img/rot_dra.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gold_dra:before {
+    content: '';
+    display: block;
+    background: url(../img/gold_dra.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sake_kali:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_kali.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi_kali:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi_kali.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.kat_kali:before {
+    content: '';
+    display: block;
+    background: url(../img/kat_kali.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sake_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.kat_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/kat_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.unagi_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/unagi_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sake_kappa_futo:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_kappa_futo.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.tam_surimi:before {
+    content: '';
+    display: block;
+    background: url(../img/tam_surimi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_lachs:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_lachs.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_unagi:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_unagi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_ebi:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_ebi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_avo:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_avo.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_kappa:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_kappa.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.mali_kase:before {
+    content: '';
+    display: block;
+    background: url(../img/mali_kase.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_mango:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_mango.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_spsake:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_spsake.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_kassake:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_kassake.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_spunagi:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_spunagi.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sake_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.surimi_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/surimi_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.unagi_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/unagi_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.yasai_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/yasai_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sake_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.unagi_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/unagi_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
 .preim li:nth-child(2):before {
     background-position: 0 0;
 }
@@ -217,7 +625,7 @@
 
 
 /*-------------------------------------- Media Queries ----959---------------------------------*//* after_qbici */    
-/*@media screen and (max-width: 976px) {
+@media screen and (max-width: 959px) {
     .block1 {
 	text-align: center;
     background: url(../img/b1.jpg) no-repeat center;
@@ -338,9 +746,9 @@
     .ship {
         margin: 0 0 0 256px;
 }
-    .block8 .wrap {
+   /* .block8 .wrap {
         padding: 0;
-    }
+    }*/
     .reviews {
         width: 100%;
 }
@@ -371,9 +779,9 @@
         background: url(../img/bfm.jpg) no-repeat center top;
         height: 563px;
     }
-}*/
+}
 /*-------------------------------------- Media Queries ----639---------------------------------*//* michael-k90 */ 
-/*@media screen and (max-width: 659px) {
+@media screen and (max-width: 639px) {
     .block1 {
 	text-align: center;
     background: url(../img/b1.jpg) no-repeat center;
@@ -417,7 +825,7 @@
         font-size: 21px;
 }
     .preim li {
-        width: 100%;
+        width: 33%;
 }
     .preim li {
         margin-bottom: 30px;
@@ -489,4 +897,4 @@
     .footer a {
         display: block;
     }
-}*/
+}

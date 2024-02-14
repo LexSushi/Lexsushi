@@ -102,7 +102,7 @@ section{
 }
 .wrap{
     width: 960px;
-    padding: 0px 10px;
+    padding: 0px 0px;
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -262,12 +262,12 @@ h2.title>span{
 }
 @media screen and (max-width: 976px) {
     .wrap{
-        width: 640px;
+        width: 740px;
     }
 }
 @media screen and (max-width: 659px) {
     .wrap{
-        width: 320px;
+        width: 659px;
     }
     
 }
