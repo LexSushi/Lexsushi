@@ -225,6 +225,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.fila_mix:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_mix.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.fila_unagi:before {
     content: '';
     display: block;
