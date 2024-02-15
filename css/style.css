@@ -372,7 +372,7 @@
 .preim li.tam_surimi:before {
     content: '';
     display: block;
-    background: url(../img/tam_surimi.png) no-repeat center center;
+    background: url(../img/tam_surimi.PNG) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
