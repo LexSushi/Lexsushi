@@ -429,6 +429,10 @@
     border: none;
     margin: 0 auto 20px;
 }
+
+	/*---------------------------------maki----------------------------------*/
+
+
 .preim li.maki_lachs:before {
     content: '';
     display: block;
@@ -493,6 +497,18 @@
     content: '';
     display: block;
     background: url(../img/maki_kappa.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_wak:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_wak.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -693,11 +709,69 @@
     border: none;
     margin: 0 auto 20px;
 }
+	
+	/*--------------------------MiniS----------------------------------------------------------------------------*/
 
-
-
-
-
+.preim li.minis_fil:before {
+    content: '';
+    display: block;
+    background: url(../img/minisetz/minis_fil.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.minis_dra:before {
+    content: '';
+    display: block;
+    background: url(../img/minisetz/minis_dra.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.minis_cal:before {
+    content: '';
+    display: block;
+    background: url(../img/minisetz/minis_cal.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.minis_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/minisetz/minis_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.minis_gar:before {
+    content: '';
+    display: block;
+    background: url(../img/minisetz/minis_gar.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 
