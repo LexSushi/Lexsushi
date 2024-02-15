@@ -1,4 +1,14 @@
 /*block1*//* after_qbici */
+
+/*.logo {
+    background: url(../img/b0.jpg) no-repeat center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    padding: 0px 0 0;
+	margin: 2px 2px 2px 2px;
+}*/
+
 .block1 {
 	text-align: center;
     background: url(../img/b1.jpg) no-repeat center;
@@ -371,6 +381,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.katana_futo:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_kappa_futo.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.maki_lachs:before {
     content: '';
     display: block;
@@ -630,9 +652,9 @@
 
 .footer {
 	text-align: center;
-    background: url(../img/b4.jpg) no-repeat center;
+    background: url(../img/b4.jpg) no-repeat top;
     background-size: cover;
-    height: 300px;
+    height: 580px;
 	max-width: 100%;
     padding: 10px 0px 0;
 	margin: 50px auto 20px;
