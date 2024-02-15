@@ -321,6 +321,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.mag_cal:before {
+    content: '';
+    display: block;
+    background: url(../img/mag_cal.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.sake_ala:before {
     content: '';
     display: block;
@@ -357,6 +369,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.mag_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/mag_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.sake_kappa_futo:before {
     content: '';
     display: block;
@@ -372,7 +396,7 @@
 .preim li.tam_surimi:before {
     content: '';
     display: block;
-    background: url(../img/tam_surimi.PNG) no-repeat center center;
+    background: url(../img/tam_surimi.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -397,6 +421,18 @@
     content: '';
     display: block;
     background: url(../img/maki_lachs.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_mag:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_mag.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -585,6 +621,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.maguro_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/maguro_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.sake_temp:before {
     content: '';
     display: block;
@@ -613,6 +661,18 @@
     content: '';
     display: block;
     background: url(../img/ebi_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.mag_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/mag_temp.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
