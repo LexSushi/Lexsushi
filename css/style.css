@@ -4,6 +4,7 @@
     background: url(../img/b1.jpg) no-repeat center;
     background-size: cover;
     height: 300px;
+	max-width: 100%;
     padding: 10px 0 0;
 }
 .block1 h1 {
@@ -105,44 +106,42 @@
 /*------------------------------------------------------BLOCK 2------------------------------------------*/
 /*block2*//* nigiri_____ */
 .block2 {
-    padding: 30px 0 0;
+    padding: 50px 0px 0px;
 }
 .preim {
     text-align: center;
 }
 .preim li {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     font-family:'OfficinaSansBoldC';
     vertical-align: top;
-	margin: 0 10px 0px;
+	margin: 0px 0px 0px ;
     /*margin-bottom: 40px;*/
 }
-.preim li:first-child {
-    margin-left: 0; /* Убирает левый отступ для первого элемента */
-}
+
 /*.preim li:before {
     content: '';
     display: block;
-    background: url(../img/preim.jpg) no-repeat 0 0;
-    width: 160px;
+    width: 100px;
     height: 160px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
-    border:5px solid #f5f5f5;
-    margin: 0 auto 20px;
+    border: none;
+    margin: 0 auto 0px;
 }*/
 .preim li.item1:before {
     content: '';
     display: block;
     background: url(../img/nigiri/preim1.png) no-repeat center center;
-    background-size: contain; /* Добавьте это */
+    background-size: cover; /* Добавьте это */
     width: 160px;
     height: 160px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
     margin: 0 auto 0px;
+    
 }
 .preim li.item2:before {
     content: '';
@@ -154,7 +153,7 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 .preim li.item3:before {
     content: '';
@@ -166,7 +165,7 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 .preim li.item4:before {
     content: '';
@@ -178,7 +177,7 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 .preim li.item5:before {
     content: '';
@@ -190,7 +189,7 @@
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 .preim li.item6:before {
     content: '';
@@ -605,6 +604,7 @@
 
 
 
+
 /*------------------------------------------------------------------------------------------------------*/
 
 .preim li:nth-child(2):before {
@@ -624,14 +624,35 @@
 }
 
 
+
+
+/*--------------------------------------FOOTER-----------------------------------*/
+
+.footer {
+	text-align: center;
+    background: url(../img/b4.jpg) no-repeat center;
+    background-size: cover;
+    height: 300px;
+	max-width: 100%;
+    padding: 10px 0px 0;
+	margin: 50px auto 20px;
+}
+
+/*-------------------------------------- Media Queries ----1200---------------------------------*//* after_qbici */ 
+@media screen and (max-width: 1200px) {
+    
+.preim li {
+        width: 20%;
+}
+
 /*-------------------------------------- Media Queries ----959---------------------------------*//* after_qbici */    
 @media screen and (max-width: 959px) {
     .block1 {
 	text-align: center;
-    background: url(../img/b1.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../img/b1.jpg) no-repeat center center;
+    background-size: contain;
     height: 300px;
-    padding: 10px 0 0;
+    padding: 0px 0 0;
 }
 .block1 h1 {
     text-align: center;
@@ -653,6 +674,10 @@
     border-radius: 3px;
     -webkit-border-radius: 3px;
 	margin: 0 auto;
+}
+.preim li {
+        width: 25%;
+}
 
 .plus {
         display: none;
@@ -670,9 +695,8 @@
     h2.title, .block3 h2 {
         font-size: 30px;
     }
-    .preim li {
-        width: 49%;
-}
+    
+
     .block3 {
         background: #52b700;
         height: auto;
@@ -697,37 +721,14 @@
     .wat, .wat li:nth-child(2), .wat li:nth-child(3), .wat li:nth-child(4) {
         margin: 0;
 }
-    .block4 {
-        background:#41c6d7;
-        height: auto;
-        margin: 0;
-        padding: 30px 0;
-}
-    .block4 p {
-        padding: 0;
-}
-    .block4:before {
-        top: 0;
-        margin-bottom: 5px;
-}
-    .block5 {
-        background:#34302f;
-        height: auto;
-        padding: 30px 0;
-}
+    
     .video-container {
         width: 100%;
         height: 351px;
         float: none;
         margin: 0 0 20px 0;
 }
-    .block5 p {
-        padding-right: 0;
-}
-    .block6 img {
-        float: none;
-        margin: 0 auto 20px;
-}
+    
     .use li {
         margin-bottom: 17px;
 }
@@ -740,15 +741,11 @@
         border-radius: 10px;
         -webkit-border-radius: 10px;
 }
-    .block7 {
-        background: url(../img/b4m.jpg) no-repeat center top;
-}
+    
     .ship {
         margin: 0 0 0 256px;
 }
-   /* .block8 .wrap {
-        padding: 0;
-    }*/
+  
     .reviews {
         width: 100%;
 }
@@ -779,15 +776,22 @@
         background: url(../img/bfm.jpg) no-repeat center top;
         height: 563px;
     }
-}
+
+
+
+
 /*-------------------------------------- Media Queries ----639---------------------------------*//* michael-k90 */ 
 @media screen and (max-width: 639px) {
+
+.preim li {
+        width: 30%;
+}
     .block1 {
 	text-align: center;
     background: url(../img/b1.jpg) no-repeat center;
     background-size: cover;
     height: 300px;
-    padding: 10px 0 0;
+    padding: 0px 0 0;
 }
 .block1 h1 {
     text-align: center;
@@ -821,80 +825,8 @@
         padding: 21px 0 0;
         text-align: center;
 }
-    h2.title, .block3 h2 {
-        font-size: 21px;
-}
-    .preim li {
-        width: 33%;
-}
-    .preim li {
-        margin-bottom: 30px;
-}
-    .block3 p:after {
-        float: none;
-        margin: 0 auto;
-    }
-    .video-container {
-        height: 174px;
-        border-width: 1px;
-	color: black;
-}
-    .block5 p {
-        line-height: 24px;
-}
-    .use p {
-        line-height: 22px;
-}
-    .note {
-        padding: 10px 18px;
-}
-    .block7 {
-        background: url(../img/b4s.jpg) no-repeat center top;
-}
-    .ship {
-        margin: 0;
-        width: 100%;
-}
-    .rev {
-        width: 300px;
-        background: #eff9ff;
-        border:none;
-        height: 604px;
-        padding-top: 117px;
-}
-    .rev img {
-        margin:0 auto 10px;
-        float: none;
-}
-    .rev h3 {
-        height: auto;
-        padding-left: 0;
-        text-align: center;
-        margin-top: -405px;
-        margin-bottom: 297px;
+    
+ 
 
-    }
-    .rev h3:before {
-        position: static;
-        margin: 0 auto 5px;
-}
-    .rev h3:after {
-        margin: 5px auto 0;
-    }
-    .slick-next {
-        right: 36px;
-}
-    .slick-prev {
-        left: 36px;
-}
-    .slick-prev, .slick-next {
-        top: 103%;
-}
-    .end {
-        background: url(../img/bfs.jpg) no-repeat center top;
-        height: 925px;
-}
-    .footer a {
-        display: block;
-    }
+    
 }

@@ -257,17 +257,15 @@ h2.title>span{
     top: 0;
     left: 0;
 }
-.youtube {
-    height: 100% !important;
-}
+
 @media screen and (max-width: 976px) {
     .wrap{
-        width: 740px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 659px) {
     .wrap{
-        width: 659px;
+        width: 100%;
     }
     
 }
