@@ -114,7 +114,31 @@
 }
 
 /*------------------------------------------------------BLOCK 2------------------------------------------*/
+
+
 /*block2*//* nigiri_____ */
+
+.title {
+  cursor: pointer;
+}
+.title:hover {
+  color: #ADD8E6; /* Это стандартный голубой цвет */
+}
+
+.block2 .title::after {
+  content: "\2190 druck/push";
+  display: inline; /* Измените это на inline или inline-block */
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+.small-text {
+  font-size: 13px; /* Измените это значение на желаемый размер шрифта */
+}
 .block2 {
     padding: 50px 0px 0px;
 }
@@ -140,6 +164,22 @@
     border: none;
     margin: 0 auto 0px;
 }*/
+.preim li.keine:before {
+    content: '';
+    display: block;
+    background: url(../img/keine.png) no-repeat center center;
+    background-size: cover; /* Добавьте это */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 0px;
+    
+}
+
+
+/*------------------------------------------------------Nigiri / Gunkan------------------------------------------*/
 .preim li.item1:before {
     content: '';
     display: block;
@@ -213,6 +253,36 @@
     border: none;
     margin: 0 auto 20px;
 }
+
+	/*------------------------------------GUNKAN--------------------------------*/
+
+.preim li.gunk_wak:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_wak.png) no-repeat center center;
+    background-size: cover; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_iku:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_iku.png) no-repeat center center;
+    background-size: cover; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+	/*------------------------------------FILA--------------------------------*/
+
 .preim li.fila:before {
     content: '';
     display: block;
@@ -842,6 +912,17 @@
     border-radius: 3px;
     -webkit-border-radius: 3px;
 	margin: 0 auto;
+}
+.block2 .title::after {
+  content: "\2190 druck/push";
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin: 0 auto;
 }
 .preim li {
         width: 25%;
