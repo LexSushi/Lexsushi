@@ -129,6 +129,7 @@
             <h2 class="title">California / Alaska<!--<span>фурминатора</span>--></h2>
 	<div class="content">
             <ul class="preim">
+                <li class="kal" onclick="changeImage(this)"><strong>California</strong><br>-Surimi, Avocado, Gurke, Fischroggen<br>7.00€</li>
                 <li class="sake_kali"><strong>Sake California</strong><br>-Lachs, Frischkäse, Gurke, <br>Fischroggen, Chili Fäden<br>7.50€</li>
                 <li class="ebi_kali"><strong>Ebi California</strong><br>-Garnele, Frischkäse, Gurke, <br>Fischroggen <br>7.90€</li>
                 <li class="mag_cal"><strong>Maguro California</strong><br>-Thunfisch, Frischkäse, Gurke, Fischroggen, Mikrogrün <br>7.50€</li>
@@ -219,6 +220,13 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
   });
+}
+function changeImage(element) {
+  if (element.classList.contains('image2')) {
+    element.classList.remove('image2');
+  } else {
+    element.classList.add('image2');
+  }
 }
 </script>
 
