@@ -122,8 +122,8 @@
   cursor: pointer;
 }
 /*.title:hover {
-  color: #ADD8E6;*/ /* Это стандартный голубой цвет */
-}
+  color: #ADD8E6; 
+}*/
 .block2 .title::before {
   content: "\2192";
   display: inline; /* Измените это на inline или inline-block */
@@ -202,6 +202,9 @@
     border: none;
     margin: 0 auto 0px;
     
+}
+.preim li.item1.image2 {
+  background-image: url('../img/nigiri/preim12.png');
 }
 .preim li.item2:before {
     content: '';
@@ -376,6 +379,23 @@
     -webkit-border-radius: 0;
     border: none;
     margin: 0 auto 20px;
+}
+
+	/*--------------------------------Calif---------------------------------*/
+.preim li.kal:before {
+    content: '';
+    display: block;
+    background: url(../img/kal.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.kal.image2:before {
+  background-image: url('../img/kal2.png');
 }
 .preim li.sake_kali:before {
     content: '';
@@ -922,17 +942,6 @@
     border-radius: 3px;
     -webkit-border-radius: 3px;
 	margin: 0 auto;
-}
-.block2 .title::after {
-  content: "\2190 druck/push";
-  display: block;
-  text-align: center;
-  color: black;
-  font-size: 13px;
-  background: #fff;
-  padding: 5px 20px;
-  border-radius: 3px;
-  margin: 0 auto;
 }
 .preim li {
         width: 25%;
