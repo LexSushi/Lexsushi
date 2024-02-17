@@ -113,17 +113,57 @@
     font-family:'OfficinaSansBlackC';
 }
 
+
+
+/*------------------------------------------------------палец------------------------------------------*/
+
+/* Стиль для надписи */
+.finger {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px; /* Отступ для иконки */
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Стиль для псевдоэлемента с иконкой */
+.finger::before {
+  content: "👆"; /* Символ пальца */
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 20px;
+  animation: click 1s infinite; /* Анимация клика */
+  transform: rotate(90deg); /* Поворот на 90 градусов */
+}
+
+/* Ключевые кадры для анимации */
+
+@keyframes click {
+  0% {
+    transform: scale(1) rotate(90deg); /* Исходный размер и угол */
+  }
+  50% {
+    transform: scale(0.8) rotate(90deg); /* Уменьшенный размер и угол */
+  }
+  100% {
+    transform: scale(1) rotate(90deg); /* Исходный размер и угол */
+  }
+}
+
 /*------------------------------------------------------BLOCK 2------------------------------------------*/
 
 
-/*block2*//* nigiri_____ */
+/*block2*/  /* nigiri_____ */
 
 .title {
   cursor: pointer;
+  text-align: center;
+  width: 100%;
 }
 /*.title:hover {
   color: #ADD8E6; 
-}*/
+}
 .block2 .title::before {
   content: "\2192";
   display: inline; /* Измените это на inline или inline-block */
@@ -147,10 +187,10 @@
   padding: 5px 20px;
   border-radius: 3px;
   margin: 0 auto;
-}
+}*/
 
 .block2 {
-    padding: 10px 0px 0px;
+    padding: 5px 0px 0px;
 }
 .preim {
     text-align: center;
@@ -285,6 +325,18 @@
     content: '';
     display: block;
     background: url(../img/gunk_iku.png) no-repeat center center;
+    background-size: cover; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_mag:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_mag.png) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;

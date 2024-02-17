@@ -198,14 +198,14 @@ h2.title{
     font-family:'OfficinaSansBlackC';
     font-size: 42px;
 }
-h2.title:after {
+/*h2.title:after {
     content: '';
     display: block;
     background: url(../img/sprite.png) no-repeat center top;
     width: 144px;
     height: 15px;
     margin: 7px auto 0;
-}
+}*/
 h2.title>span{
     color: #bf3dbb;
 }
