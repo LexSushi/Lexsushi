@@ -813,6 +813,9 @@
     border: none;
     margin: 0 auto 20px;
 }
+
+	/*---------------------------------TEMPURA------------------------------------*/
+
 .preim li.sake_temp:before {
     content: '';
     display: block;
@@ -853,6 +856,30 @@
     content: '';
     display: block;
     background: url(../img/mag_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi3_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi3_temp.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi5_temp:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi5_temp.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
