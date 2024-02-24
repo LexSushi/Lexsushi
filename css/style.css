@@ -478,6 +478,11 @@
 .preim li.maki_lachsg:active:before,
 .preim li.maki_lachsg:hover:before {
     background: url(../img/maki_lachsg2.png) no-repeat center center;
+    background-position: center;
+    background-size: contain; 
+    width: 120px;
+    height: 120px;
+    margin: 40px auto 20px;
 }
 .preim li.maki_mag:before {
     content: '';
@@ -555,6 +560,18 @@
     content: '';
     display: block;
     background: url(../img/mali_kase.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.mali_tom:before {
+    content: '';
+    display: block;
+    background: url(../img/tom.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -700,22 +717,16 @@
     border: none;
     margin: 0 auto 20px;
 }
-.preim li.kal:active:before,
-.preim li.kal:hover:before {
-    content: '';
-    display: block;
-    background: url(../img/kal2.png) no-repeat center bottom;
-    background-size: contain; 
-    width: 120px; /* уменьшите размер, как вам нужно */
-    height: 120px; /* уменьшите размер, как вам нужно */
+.preim li.kal.image2:before {
+    background-image: url('../img/kal2.png');
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 0;
     border: none;
     margin: 40px auto 20px;
+
 }
-/*.preim li.kal.image2:before {
-  background-image: url('../img/kal2.png');
-}*/
 .preim li.sake_kali:before {
     content: '';
     display: block;
