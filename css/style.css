@@ -478,11 +478,6 @@
 .preim li.maki_lachsg:active:before,
 .preim li.maki_lachsg:hover:before {
     background: url(../img/maki_lachsg2.png) no-repeat center center;
-    background-position: center;
-    background-size: contain; 
-    width: 120px;
-    height: 120px;
-    margin: 40px auto 20px;
 }
 .preim li.maki_mag:before {
     content: '';
