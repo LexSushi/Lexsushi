@@ -67,7 +67,7 @@
 .plus {
     position: absolute;
 	text-align: center;
-    top: 215px;
+    top: 216px;
     /*left: 232px;*/
 	color: black;
 }
@@ -1156,9 +1156,7 @@
         width: 25%;
 }
 
-/*.plus {
-        display: none;
-    }*/
+
     .formbox {
         margin: 27px 0 0 327px;
     }
