@@ -370,6 +370,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.set_kal:before {
+    content: '';
+    display: block;
+    background: url(../img/set_kal.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 
 
 /*------------------------------------------------------Nigiri / Gunkan------------------------------------------*/
