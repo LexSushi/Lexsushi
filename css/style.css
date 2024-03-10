@@ -298,6 +298,18 @@
 
 	/*--------------------------Sets----------------------------------------------------------------------------*/
 
+.preim li.set_makman:before {
+    content: '';
+    display: block;
+    background: url(../img/set_makman.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.set_top:before {
     content: '';
     display: block;
@@ -326,6 +338,30 @@
     content: '';
     display: block;
     background: url(../img/set_filxl.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.set_lac:before {
+    content: '';
+    display: block;
+    background: url(../img/set_lac.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.set_una:before {
+    content: '';
+    display: block;
+    background: url(../img/set_una.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -911,6 +947,17 @@
     content: '';
     display: block;
     background: url(../img/kat_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}.preim li.ebi_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi_ala.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
