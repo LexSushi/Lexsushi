@@ -1064,6 +1064,34 @@
 }
 
 
+	/*---------------------------------HOT------------------------------------*/
+
+
+
+.preim li.rak3:before {
+    content: '';
+    display: block;
+    background: url(../img/rak3.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.rak5:before {
+    content: '';
+    display: block;
+    background: url(../img/rak5.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.sake_hot:before {
     content: '';
     display: block;
