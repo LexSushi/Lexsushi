@@ -774,6 +774,18 @@
 
 
 
+.preim li.lex:before {
+    content: '';
+    display: block;
+    background: url(../img/lex.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.fila:before {
     content: '';
     display: block;
@@ -935,6 +947,18 @@
     content: '';
     display: block;
     background: url(../img/mag_cal.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.mag_spa:before {
+    content: '';
+    display: block;
+    background: url(../img/mag_spa.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
