@@ -382,6 +382,19 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.set_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/set_okt.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+
 
 
 /*------------------------------------------------------Nigiri / Gunkan------------------------------------------*/
@@ -425,6 +438,18 @@
     content: '';
     display: block;
     background: url(../img/nigiri/preim2.png) no-repeat center center;
+    background-size: cover; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 0px;
+}
+.preim li.nig_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/nig_okt.png) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;
@@ -508,6 +533,18 @@
     content: '';
     display: block;
     background: url(../img/gunk_wak.png) no-repeat center center;
+    background-size: cover; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gunk_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/gunk_okt.png) no-repeat center center;
     background-size: cover; /* или cover */
     width: 160px;
     height: 160px;
@@ -610,6 +647,18 @@
     content: '';
     display: block;
     background: url(../img/maki_lachs.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.maki_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_okt.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -754,23 +803,6 @@
 
 	/*------------------------------------FILA--------------------------------*/
 
-/*
-.preim li.kal:before {
-    content: '';
-    display: block;
-    background: url(../img/kal.png) no-repeat center center;
-    background-size: contain; 
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    -webkit-border-radius: 0;
-    border: none;
-    margin: 0 auto 20px;
-}
-.preim li.kal.image2:before {
-  background-image: url('../img/kal2.png');
-}
-*/
 
 
 
@@ -790,6 +822,18 @@
     content: '';
     display: block;
     background: url(../img/fila.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.fila_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_okt.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -897,6 +941,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.kal_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/kal_okt.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.kal.image2:before {
     background-image: url('../img/kal2.png');
     width: 120px;
@@ -963,6 +1019,18 @@
     width: 160px;
     height: 160px;
     border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.okt_ala:before {
+    content: '';
+    display: block;
+    background: url(../img/okt_ala.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
     -webkit-border-radius: 0;
     border: none;
     margin: 0 auto 20px;
