@@ -450,7 +450,9 @@
     content: '';
     display: block;
     background: url(../img/nig_okt.png) no-repeat center center;
-    background-size: cover; /* или cover */
+    background-size: contain; /* изменено с cover на contain */
+    background-size: 60% 60%; /* изменено с contain на 50% 50% */
+    background-position: 10% 10%;
     width: 160px;
     height: 160px;
     border-radius: 100%;
@@ -941,10 +943,10 @@
     border: none;
     margin: 0 auto 20px;
 }
-.preim li.kal_okt:before {
+.preim li.okt_kali:before {
     content: '';
     display: block;
-    background: url(../img/kal_okt.png) no-repeat center center;
+    background: url(../img/okt_kali.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -1015,6 +1017,18 @@
     content: '';
     display: block;
     background: url(../img/mag_spa.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ebi_spa:before {
+    content: '';
+    display: block;
+    background: url(../img/ebi_spa.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
