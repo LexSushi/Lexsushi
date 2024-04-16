@@ -1346,6 +1346,35 @@
 }
 	
 
+
+	/*---------------------------------NUDELN------------------------------------*/
+
+.preim li.reis_huhn:before {
+    content: '';
+    display: block;
+    background: url(../img/reis_huhn.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.reisnud_huhn:before {
+    content: '';
+    display: block;
+    background: url(../img/reis_huhnnud.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+
 /*------------------------------------------------------------------------------------------------------*/
 
 .preim li:nth-child(2):before {
