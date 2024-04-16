@@ -450,9 +450,8 @@
     content: '';
     display: block;
     background: url(../img/nig_okt.png) no-repeat center center;
-    background-size: contain; /* изменено с cover на contain */
-    background-size: 60% 60%; /* изменено с contain на 50% 50% */
-    background-position: 10% 10%;
+    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-position: center; /* изменено с 30% 60% на center */
     width: 160px;
     height: 160px;
     border-radius: 100%;
@@ -1178,6 +1177,18 @@
     content: '';
     display: block;
     background: url(../img/sake_hot.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.tako_hot:before {
+    content: '';
+    display: block;
+    background: url(../img/tako_hot.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
