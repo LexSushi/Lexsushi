@@ -680,6 +680,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.maki_sake_avo:before {
+    content: '';
+    display: block;
+    background: url(../img/maki_sake_avo.png) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.maki_lachsg:active:before,
 .preim li.maki_lachsg:hover:before {
     background: url(../img/maki_lachsg2.png) no-repeat center center;
@@ -903,10 +915,34 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.avo_ebi_fila:before {
+    content: '';
+    display: block;
+    background: url(../img/avo_ebi_fila.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.gold_dra:before {
     content: '';
     display: block;
     background: url(../img/gold_dra.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.grun_dra:before {
+    content: '';
+    display: block;
+    background: url(../img/grun_dra.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
