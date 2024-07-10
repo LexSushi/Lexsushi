@@ -843,6 +843,18 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.fila_vip:before {
+    content: '';
+    display: block;
+    background: url(../img/fila_vip.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 .preim li.fila_okt:before {
     content: '';
     display: block;
@@ -1422,6 +1434,33 @@
     margin: 0 auto 20px;
 }
 
+
+/*---------------------------------DESSERTS------------------------------------*/
+
+.preim li.schok:before {
+    content: '';
+    display: block;
+    background: url(../img/schok.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.apfel:before {
+    content: '';
+    display: block;
+    background: url(../img/apfel.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 
