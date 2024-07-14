@@ -499,40 +499,40 @@
     content: '';
     display: block;
     background: url(../img/nigiri/abu_lachs_nig.png) no-repeat center center;
-    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-size: 70% 70%; /* изменено с contain на 60% 60% */
     background-position: center; /* изменено с 30% 60% на center */
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 0px;
+    margin: 40px 0px 0px 60px;
 }
 .preim li.abu_tun_nig:before {
     content: '';
     display: block;
     background: url(../img/nigiri/abu_tun_nig.png) no-repeat center center;
-    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-size: 70% 70%; /* изменено с contain на 60% 60% */
     background-position: center; /* изменено с 30% 60% на center */
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 0px;
+    margin: 40px 0px 0px 60px;
 }
 .preim li.nig_okt:before {
     content: '';
     display: block;
     background: url(../img/nig_okt.png) no-repeat center center;
-    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-size: 70% 70%; /* изменено с contain на 60% 60% */
     background-position: center; /* изменено с 30% 60% на center */
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 0px;
+    margin: 40px 0px 0px 60px;
 }
 
 	/*------------------------------------GUNKAN--------------------------------*/
@@ -573,25 +573,27 @@
     content: '';
     display: block;
     background: url(../img/gunk_okt.png) no-repeat center center;
-    background-size: cover; /* или cover */
-    width: 160px;
-    height: 160px;
+    background-size: 99% 99%; /* изменено с contain на 60% 60% */
+    background-position: center; /* изменено с 30% 60% на center */
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 40px 0px 20px 40px;
 }
 .preim li.gunk_iku:before {
     content: '';
     display: block;
     background: url(../img/gunk_iku.png) no-repeat center center;
-    background-size: cover; /* или cover */
-    width: 160px;
-    height: 160px;
+    background-size: 99% 99%; /* изменено с contain на 60% 60% */
+    background-position: center; /* изменено с 30% 60% на center */
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     border: none;
-    margin: 0 auto 20px;
+    margin: 40px 0px 20px 40px;
 }
 .preim li.gunk_mag:before {
     content: '';
