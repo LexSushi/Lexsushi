@@ -446,19 +446,7 @@
     border: none;
     margin: 0 auto 0px;
 }
-.preim li.nig_okt:before {
-    content: '';
-    display: block;
-    background: url(../img/nig_okt.png) no-repeat center center;
-    background-size: 60% 60%; /* изменено с contain на 60% 60% */
-    background-position: center; /* изменено с 30% 60% на center */
-    width: 160px;
-    height: 160px;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border: none;
-    margin: 0 auto 0px;
-}
+
 .preim li.item3:before {
     content: '';
     display: block;
@@ -506,6 +494,44 @@
     -webkit-border-radius: 100%;
     border: none;
     margin: 0 auto 20px;
+}
+.preim li.abu_lachs_nig:before {
+    content: '';
+    display: block;
+    background: url(../img/nigiri/abu_lachs_nig.png) no-repeat center center;
+    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.abu_tun_nig:before {
+    content: '';
+    display: block;
+    background: url(../img/nigiri/abu_tun_nig.png) no-repeat center center;
+    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-position: center; /* изменено с 30% 60% на center */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.nig_okt:before {
+    content: '';
+    display: block;
+    background: url(../img/nig_okt.png) no-repeat center center;
+    background-size: 60% 60%; /* изменено с contain на 60% 60% */
+    background-position: center; /* изменено с 30% 60% на center */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+    margin: 0 auto 0px;
 }
 
 	/*------------------------------------GUNKAN--------------------------------*/
@@ -975,6 +1001,30 @@
     border: none;
     margin: 0 auto 20px;
 }
+.preim li.sake_wak:before {
+    content: '';
+    display: block;
+    background: url(../img/sake_wak.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.mag_wak:before {
+    content: '';
+    display: block;
+    background: url(../img/mag_wak.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
 
 
 	/*--------------------------------Calif---------------------------------*/
@@ -1159,6 +1209,18 @@
     content: '';
     display: block;
     background: url(../img/sake_kappa_futo.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.kat_fut_kim:before {
+    content: '';
+    display: block;
+    background: url(../img/kat_fut_kim.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
@@ -1425,6 +1487,42 @@
     content: '';
     display: block;
     background: url(../img/buch_huhn.jpeg) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.udo_huhn:before {
+    content: '';
+    display: block;
+    background: url(../img/udo_huhn.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gre_more:before {
+    content: '';
+    display: block;
+    background: url(../img/gre_more.png) no-repeat center center;
+    background-size: contain; /* или cover */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.gre_huhn:before {
+    content: '';
+    display: block;
+    background: url(../img/gre_huhn.png) no-repeat center center;
     background-size: contain; /* или cover */
     width: 160px;
     height: 160px;
