@@ -1258,7 +1258,173 @@
 }
 
 
+	/*---------------------------------GETRÄNKE------------------------------------*/
+
+.preim li.jack_cola:before {
+    content: '';
+    display: block;
+    background: url(../img/get/jack_cola.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.jack_ginger:before {
+    content: '';
+    display: block;
+    background: url(../img/get/jack_ginger.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.jim_cola:before {
+    content: '';
+    display: block;
+    background: url(../img/get/jim_cola.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ape_spr:before {
+    content: '';
+    display: block;
+    background: url(../img/get/ape_spr.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.ape_spr3:before {
+    content: '';
+    display: block;
+    background: url(../img/get/ape_spr3.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.berliner:before {
+    content: '';
+    display: block;
+    background: url(../img/get/berliner.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.corona:before {
+    content: '';
+    display: block;
+    background: url(../img/get/corona.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+
+
+
+.preim li.cola5:before {
+    content: '';
+    display: block;
+    background: url(../img/get/cola5.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.cola5_ohne:before {
+    content: '';
+    display: block;
+    background: url(../img/get/cola5_ohne.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.fanta5:before {
+    content: '';
+    display: block;
+    background: url(../img/get/fanta5.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.sprite5:before {
+    content: '';
+    display: block;
+    background: url(../img/get/sprite5.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.cola1:before {
+    content: '';
+    display: block;
+    background: url(../img/get/cola1.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+.preim li.cola1_ohne:before {
+    content: '';
+    display: block;
+    background: url(../img/get/cola1_ohne.jpg) no-repeat center center;
+    background-size: contain; 
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    -webkit-border-radius: 0;
+    border: none;
+    margin: 0 auto 20px;
+}
+
+
 	/*---------------------------------HOT------------------------------------*/
+
+
 
 
 
